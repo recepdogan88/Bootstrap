@@ -25,3 +25,12 @@ background-color: #f2f2f2;
 .teamcard>img:hover{
   opacity: 0.8;
 }
+.gallery{
+  background-color: #f2f2f2;
+}
+.figure:hover{
+opacity: 0.8;
+}
+.card-boy{
+  height: 1rem;
+}
