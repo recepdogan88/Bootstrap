@@ -1,0 +1,181 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   background-color: #eff3f6; 
+   height: 100vh;
+   overflow-x: hidden;
+   font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+main{
+    width: 1600px;
+    margin: auto;
+    overflow-y: scroll; 
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+}
+.navbar{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    font-size: large;
+    font-weight: 500;
+}
+.nav-link{
+    color: aliceblue;
+    margin-left: 7px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    height: 100vh;
+    scroll-snap-align: center;
+}
+#home, #blog, #contact,#projects,#skills{
+    width: 100%;
+    height: 100vh;
+}
+#home{
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+#about{
+    background: url('/img/nathan-dumlao-OHzkfrv9Ycw-unsplash.jpg') no-repeat center center/cover; 
+  
+}
+.about{
+    width: 700px;
+    height: auto;
+}
+.icon{
+    border-top: 3px solid #1e2124 ;
+    width: 250px;
+    margin: 25px auto;
+    background-color: transparent;
+}
+.ibeyaz{
+    color: #515961ec ;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid transparent;;
+    background-color: transparent;
+}
+#contact{
+    background-image: radial-gradient(circle 248px at center, #bad9db 0%, #88becb 47%, #b1cbde 100%);
+}
+#skills{
+    background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
+}
+   
+#projects{
+    background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;;
+}
+
+/*** <--- CIRCLE STYLES ---> ***/
+.wrap-circles {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 1rem;
+}
+
+.circle {
+    position: relative;
+    width: 150px;
+    height: 150px;
+    margin: 0.5rem;
+    border-radius: 50%;
+    background: #FFCDB2;
+    overflow: hidden;
+}
+.circle.html {
+  background-image: conic-gradient(#B5838D 90%, #FFCDB2 0);
+}
+.circle.css {
+  background-image: conic-gradient(#B5838D 85%, #FFCDB2 0);
+}
+.circle.js {
+  background-image: conic-gradient(#B5838D 60%, #FFCDB2 0);
+}
+.circle.react {
+  background-image: conic-gradient(#B5838D 80%, #FFCDB2 0);
+}
+.circle.node {
+  background-image: conic-gradient(#B5838D 50%, #FFCDB2 0);
+}
+.circle.english {
+  background-image: conic-gradient(#B5838D 80%, #FFCDB2 0);
+}
+.circle.german {
+  background-image: conic-gradient(#B5838D 60%, #FFCDB2 0);
+}
+.circle .inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 115px;
+  height: 115px;
+  background: #000;
+  border-radius: 50%;
+  font-size: 1.85em;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.75);
+}
+.fa-twitter-square,.fa-instagram,.fa-linkedin,.fa-facebook{
+  font-size: 50px;
+  color: white;
+}
+.fa-facebook{
+  margin-right: 26px;
+}
+ul {
+  list-style-type: none; /* Remove bullets */
+}
+.submit{
+  background-color:#826de1;
+  color: white;
+  width: 110px;
+  height: 40px;
+  margin-top: 15px;
+}
+.baslik-contact{
+  color:#826de1 ;
+  font-weight: 800;
+  font-family: 'Rubik Moonrocks', cursive;
+}
+.icon-contact{
+  border-top: 3px solid #826de1 ;
+  width: 250px;
+  margin: 25px auto;
+  background-color: #826de1 ;;
+}
+.ibeyaz-contact{
+  color:#826de1 ;
+  position: relative;
+  top: -55px;
+  font-size: 40px;
+  border: 10px solid transparent;
+  background-color: transparent;
+}
+.foto:hover {
+  transform: scale(0.95);
+  cursor: pointer;
+}
