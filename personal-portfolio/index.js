@@ -17,7 +17,7 @@ function emptyInput(){
   document.getElementById('lastname').value=""
   document.getElementById('email').value=""
   document.getElementById('comment').value=""
-  alert("thanks for contact")
+  alert("Thanks for contacting")
 }
 
 // typing text animation script

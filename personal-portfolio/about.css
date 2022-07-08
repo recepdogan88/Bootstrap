@@ -1,0 +1,22 @@
+#about{
+    background: url('/img/nathan-dumlao-OHzkfrv9Ycw-unsplash.jpg') no-repeat center center/cover; 
+  
+}
+.about{
+    width: 700px;
+    height: auto;
+}
+.icon{
+    border-top: 3px solid #1e2124 ;
+    width: 250px;
+    margin: 25px auto;
+    background-color: transparent;
+}
+.ibeyaz{
+    color: #515961ec ;
+    position: relative;
+    top: -55px;
+    font-size: 40px;
+    border: 10px solid transparent;;
+    background-color: transparent;
+}
