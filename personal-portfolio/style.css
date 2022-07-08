@@ -1,32 +1,25 @@
-
-
+html {
+  scroll-behavior: smooth;
+}
 main{
-    width: 1600px;
+    width: 100%;
     margin: auto;
-    overflow-y: scroll; 
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
 }
-
-
-
-
 #home, #blog, #contact,#projects,#skills{
     width: 100%;
     height: 100vh;
 }
 
-
-
-#contact{
-    background-image: radial-gradient(circle 248px at center, #bad9db 0%, #88becb 47%, #b1cbde 100%);
-}
 #skills{
     background-image: linear-gradient(to top, #a8edea 0%, #fed6e3 100%);
 }
-   
 #projects{
-    background: url('https://source.unsplash.com/VRxo0yY-gyM/1600x900') no-repeat center center/cover;;
+    background: url('./img/nathan-dumlao-OHzkfrv9Ycw-unsplash.jpg') no-repeat center center/cover;;
+}
+section:focus{
+  display : block
 }
 
 

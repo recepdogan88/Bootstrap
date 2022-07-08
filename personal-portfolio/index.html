@@ -26,47 +26,64 @@
     
     <!--NAVBAR START-->
     <main>
-        <header id="header">
-            <nav class="navbar navbar-expand-lg">
-                <div class="container-fluid">
-                  <div class="collapse navbar-collapse ms-3" id="navbarSupportedContent">
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                      <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#home">Home</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#about">Blog</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#projects">Projects</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#skills">Skills</a>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="#contact">Contact</a>
-                      </li>
-                  </div>
+      <header class="page__header header">
+        <div class="header__container container">
+          <div class="header__body">
+            <div class="header__leftside">
+              <a href="#home" title="" class="header__logo">RECEP DOGAN</a>
+            </div>
+            <div class="header__rightside">
+              <div class="header__menu header-menu">
+                <ul class="header-menu__list">
+                  <li class="header-menu__item">
+                    <a href="#home" title="" class="header-menu__link">Home</a>
+                  </li>
+                  <li class="header-menu__item">
+                    <a href="#about" title="" class="header-menu__link">About</a>
+                  </li>
+                  <li class="header-menu__item">
+                    <a href="#skills" title="" class="header-menu__link">Skills</a>
+                  </li>
+                  <li class="header-menu__item">
+                    <a href="#contact" title="" class="header-menu__link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="header__changer">
+                <div class="header__moon">
+                  <i class='bx bx-moon'></i>
                 </div>
-              </nav>
-        </header>
-        
+              </div>
+              <div class="header__mob">
+                <div class="header__mob-menu">
+                  <i class='bx bx-menu' ></i>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
           <!--NAVBAR END-->
     
           <!--HOME PAGE START-->
             <section id="home">
                <div class="d-flex">
-                <div class="profil">
+                <div class="profil col-5">
                   <img src="/img/WhatsApp Image 2022-06-27 at 20.52.12.jpeg" class="card-img-top rounded-circle w-75 foto" alt="Profil page of RECEP">
               </div>
               <div class="col-9 profil">
-                <div class="wrapper mt-5">
-                  <div class="static-txt">I'm a</div>
+                <h1 class="text-start ms-1 mt-5 hi">Hi,</h1>
+                <div class="wrapper mt-2">
+                  <div class="static-txt">I'm</div>
                   <ul class="dynamic-txts">
-                    <li><span>Mentor at Hicoders</span></li>
-                    <li><span>YouTuber</span></li>
-                    <li><span>Designer</span></li>
+                    <li><span>Recep DOGAN</span></li>
+                    <li><span>from Turkey</span></li>
+                    <li><span>34 years old</span></li>
+                    <li><span>a Web Developer</span></li>
                   </ul>
+                </div>
+                <div class="d-flex justify-content-start">
+                  <a class="btn more-about-btn" href="#about">MORE ABOUT ME</a>
                 </div>
               </div>
                </div>
@@ -143,13 +160,12 @@
               </div>
                </div>
               </div>
-                
             </div>
           </section>
           <!--SKILLS END-->
           <section id="contact">
             <div class="col-9 mt-5">
-              <h1 class="baslik-contact">CONTACT</h1>
+              <h1 class="baslik-contact mt-5">CONTACT</h1>
               <hr class="icon-contact">
               <i class="fas fa-leaf ibeyaz-contact"></i>
             </div>

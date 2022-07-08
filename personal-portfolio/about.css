@@ -1,6 +1,5 @@
 #about{
-    background: url('/img/nathan-dumlao-OHzkfrv9Ycw-unsplash.jpg') no-repeat center center/cover; 
-  
+    background-image: linear-gradient(to top, #db9a9a 0%, #13648a 100%);
 }
 .about{
     width: 700px;

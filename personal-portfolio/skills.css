@@ -19,24 +19,31 @@
 }
 .circle.html {
   background-image: conic-gradient(#B5838D 90%, #FFCDB2 0);
+  cursor: pointer;
 }
 .circle.css {
   background-image: conic-gradient(#B5838D 85%, #FFCDB2 0);
+  cursor: pointer;
 }
 .circle.js {
   background-image: conic-gradient(#B5838D 60%, #FFCDB2 0);
+  cursor: pointer;
 }
 .circle.react {
   background-image: conic-gradient(#B5838D 80%, #FFCDB2 0);
+  cursor: pointer;
 }
 .circle.node {
   background-image: conic-gradient(#B5838D 50%, #FFCDB2 0);
+  cursor: pointer;
 }
 .circle.english {
   background-image: conic-gradient(#B5838D 80%, #FFCDB2 0);
+  cursor: pointer;
 }
 .circle.german {
   background-image: conic-gradient(#B5838D 60%, #FFCDB2 0);
+  cursor: pointer;
 }
 .circle .inner {
   display: flex;
