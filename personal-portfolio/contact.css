@@ -3,7 +3,7 @@
 }
 .fa-twitter-square,.fa-instagram,.fa-linkedin,.fa-facebook{
     font-size: 50px;
-    color: rgb(59, 117, 192);
+    color: #FC6E6E;
 }
 .fa-facebook{
     margin-right: 26px;
@@ -28,8 +28,8 @@ ul {
     font-family: 'Rubik Moonrocks', cursive;
 }
 .icon-contact{
-    border-top: 3px solid #FC6E6E ;
-    width: 250px;
+    border-top: 5px solid #FC6E6E ;
+    width: 400px;
     margin: 25px auto;
     background-color: #FC6E6E ;;
 }

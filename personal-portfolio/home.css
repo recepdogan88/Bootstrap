@@ -20,8 +20,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+ body {
   min-height: 100vh;
   font-family: Montserrat;
   background: var(--white-color);
@@ -80,7 +79,7 @@ ul {
 }
 .header__leftside{
     margin-bottom: 10px;
-    }
+}
 .header-menu__list {
   display: flex;
   align-items: center;
@@ -129,7 +128,8 @@ ul {
 
 .header__mob {
   display: none;
-}
+} 
+
 
 section {
     display: flex;
@@ -143,11 +143,9 @@ section {
 }
 #home{
     background: url('./img/david-moum-nbqlWhOVu6k-unsplash\ \(1\).jpg') no-repeat center center/cover;
-    /* background-image: linear-gradient(to top, #dfc2b5 0%, #13648a 100%); */
 }
 .foto:hover {
     transform: scale(0.95);
-    cursor: pointer;
 }
 .hi{
     color: white;
