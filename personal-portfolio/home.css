@@ -61,7 +61,6 @@ ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  
 }
 
 .header__logo {
@@ -74,8 +73,8 @@ ul {
     color:rgb(247, 198, 198) ;
 }
 .header__rightside {
-  display: flex;
-  align-items: center;
+  position: absolute;
+  right: 50px;
 }
 .header__leftside{
     margin-bottom: 10px;
