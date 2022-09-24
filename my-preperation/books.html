@@ -9,40 +9,38 @@
   <link rel="stylesheet" href="./home.css">
 </head>
 <body>
-   <header class="page__header header">
-      <div class="header__container container">
-        <div class="header__body">
-          <div class="header__leftside">
-            <a href="./index.html" title="" class="header__logo">MY PREPERATION</a>
-          </div>
-          <div class="header__rightside">
-            <div class="header__menu header-menu">
-              <ul class="header-menu__list ul">
-                <li class="header-menu__item">
-                  <a href="./index.html" title="" class="header-menu__link">Home</a>
-                </li>
-                <li class="header-menu__item">
-                  <a href="./gallery.html" title="" class="header-menu__link">Certificates</a>
-                </li>
-                <li class="header-menu__item">
-                  <a href="./books.html" title="" class="header-menu__link">Books</a>
-                </li>
+  <nav class="navbar navbar-expand-lg ">
+    <div class="container-fluid">
+      <div class="left">
+        <a class="navbar-brand" href="./index.html"><h1 class="logo">RECEP DOGAN</h1></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+      <div class="right">
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="./books.html">Books</a>
+            </li>
+           
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#"  role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              My Certificates
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <li><a class="dropdown-item" href="./english.html">English</a></li>
+                <li><a class="dropdown-item" href="./german.html">German</a></li>
+                <li><a class="dropdown-item" href="./web.html">Web</a></li>
+                <li><a class="dropdown-item" href="./cloud.html">Cloud</a></li>
               </ul>
-            </div>
-            <div class="header__changer">
-              <div class="header__moon">
-                <i class='bx bx-moon'></i>
-              </div>
-            </div>
-            <div class="header__mob">
-              <div class="header__mob-menu">
-                <i class='bx bx-menu' ></i>
-              </div>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
-      </div> 
-    </header>
+      </div>
+      
+    </div>
+  </nav>
 
   <section class="gallery min-vh-100">
      <div class="container-lg">
