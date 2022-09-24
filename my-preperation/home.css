@@ -90,8 +90,8 @@ section{
   -webkit-background-clip:text;
   background-position: 0 0;
   animation: back 20s linear infinite;
-  padding-top: 10px;
-  padding-left: 10px;
+  padding-top: 20px;
+  padding-left: 20px;
 }
 @keyframes back{
   100%{
@@ -110,4 +110,7 @@ section{
 }
 .dropdown-item{
   color: #fff;
+}
+.right{
+  padding-top: 10px;
 }
