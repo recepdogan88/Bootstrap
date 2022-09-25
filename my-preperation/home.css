@@ -91,7 +91,7 @@ section{
   background-position: 0 0;
   animation: back 20s linear infinite;
   padding-top: 20px;
-  padding-left: 20px;
+  padding-left: 40px;
 }
 @keyframes back{
   100%{
