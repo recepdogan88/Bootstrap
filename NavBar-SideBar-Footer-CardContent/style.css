@@ -45,8 +45,13 @@ h1{
     height: 10vh;
    } 
 }
-@media (max-width:700px){
+@media (max-width:768px){
     .sidebar{
         display: none;
+    }
+}
+@media (max-width:576px){
+    .card-content{
+        margin: auto;
     }
 }
