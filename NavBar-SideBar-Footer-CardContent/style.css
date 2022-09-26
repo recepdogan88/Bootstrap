@@ -1,0 +1,31 @@
+*{
+ box-sizing: border-box;
+ margin: 0;
+ padding: 0;
+}
+body{
+    background-color: antiquewhite;
+}
+#navbar{
+  background-color: black;
+  height: 10vh;
+  display: flex;
+  align-items: center;
+}
+h1{
+    text-align: center;
+    color: red;
+}
+.sidebar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 80vh;
+    background-color:gray ;
+}
+.footer{
+    height: 10vh;
+    background-color: black;
+}
