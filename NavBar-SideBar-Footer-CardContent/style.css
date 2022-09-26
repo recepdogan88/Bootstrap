@@ -8,7 +8,7 @@ body{
 }
 #navbar{
   background-color: black;
-  height: 10vh;
+  height: 8vh;
   display: flex;
   align-items: center;
 }
@@ -22,10 +22,31 @@ h1{
     justify-content: center;
     border: 1px solid black;
     border-radius: 5px;
-    height: 80vh;
+    height: 84vh;
     background-color:gray ;
 }
 .footer{
-    height: 10vh;
+    height: 8vh;
     background-color: black;
+    display: flex;
+    align-items: center;
+}
+.card-content{
+    height: 28vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+@media (max-width:992px){
+   .sidebar{
+    height: 10vh;
+   } 
+}
+@media (max-width:700px){
+    .sidebar{
+        display: none;
+    }
 }
